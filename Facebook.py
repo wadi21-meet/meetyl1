@@ -1,3 +1,33 @@
+users = []
+posts = []
+
+class User():
+	def __init__(self, name, email, password, friends_list=[]):
+		self.name = name
+		self.email = email
+		self.password = password
+		self.friends_list=[]
+	def add_friend(self, email):
+		self.friends_list.append(email)
+		print(self.name + " has added " + email + " as a friend")
+	def remove_friend(self, email):
+		self.friends_list.remove(email)
+		print(self.name + " has removed " + email + " from his friends list")
+	def add_post(self, text):
+		post1 = Post(text, self.email)
+		posts.append(post1)
+		for post in posts:
+			if user1.email == post.name:
+				print(post)
+		print(self.name + " has posted: " + text)
+	def get_userInfo(self):
+		print("Name: " + self.name)
+		print("Email: " + self.email)
+		print("Password: " + self.password) 
+		print("Friends: ", self.friends_list)
+		print("Posts: ", posts)
+
+
 class Post():
 	def __init__(self, name, caption, comments=[]):
 		self.name = name
@@ -15,39 +45,18 @@ class Post():
 		print(self.name + " has liked you post!")
 
 
-class User():
-	def __init__(self, name, email, password, friends_list=[],posts=[]):
-		self.name = name
-		self.email = email
-		self.password = password
-		self.friends_list=[]
-		self.posts=[]
-	def add_friend(self, email):
-		self.friends_list.append(email)
-		print(self.name + " has added " + email + " as a friend")
-	def remove_friend(self, email):
-		self.friends_list.remove(email)
-		print(self.name + " has removed " + email + " from his friends list")
-	def post(self, text):
-		self.text = text
-		self.posts.append(text)
-		post1 = Post("new post", self.name)
-		self.posts.append(post1)
-		print(self.name + " has posted: " + text)
-	def get_userInfo(self):
-		print("Name: " + self.name)
-		print("Email: " + self.email)
-		print("Password: " + self.password) 
-		print("Friends: ", self.friends_list)
-		print("Posts: ", self.posts)
-
+class Comment(Post):
+	pass
 
 user1 = User("Wadi", "wnaoum@gmail.com", "mycoolamazingpassword4354")
 user2 = User("BeastMaster64", "BeastMaster64@gmail.com", "BeastMode123")
 user2.add_friend("wnaoum@gmail.com")
-user1.post("text")
+user1.add_post("text")
 user1.get_userInfo()
 user2.get_userInfo()
 user2.remove_friend("wnaoum@gmail.com")
-user1.post("my cool trip")
+user1.add_post("my cool trip")
+user2.add_post("amazing origami")
+
+
 
