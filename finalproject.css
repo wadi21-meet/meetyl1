@@ -1,0 +1,19 @@
+h1 {
+	text-align:center;color:#1E90FF;font-family:fantasy;font-size:50px;
+}
+body, html {
+  height: 100%;
+}
+
+.bg { 
+  /* The image used */
+  background-image: url("smallbridge.jpg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
