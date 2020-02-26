@@ -1,0 +1,28 @@
+!DOCTYPE html>
+<html>
+<head>
+	<title>Bridge Between Reasons, Wadi Naoum</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body background-image: url>
+	<a href="about.html">This is a very cool link you should click it!</a>
+	<br>
+  	<h1 id="header">WadZ x CC Tech Shop</h1>
+	<br>
+	<h3>IPhone 11</h3>
+	<br>
+	<a href="https://www.amazon.com/dp/B07XSQT4Q3/ref=fs_a_ni2_0"><img src="IPhone11.jpg" width="700" height="500"></a>
+	<h3> $7659208 </h3>
+	<br>
+	<h3>IPad Pro</h3>
+	<br>
+	<a href="https://www.amazon.com/Apple-iPad-11-inch-Wi-Fi-256GB/dp/B07K3BZSNK/ref=sr_1_1?keywords=IPad+pro&qid=1576081030&sr=8-1"><img src="IPadPro.jpg" width="700" height="500"></a>
+	<h3> $573726 </h3>
+	<br>
+	<h3>SAMSUNG TV</h3>
+	<br>
+	<a href="https://www.amazon.com/TCL-43S425-Inch-Ultra-Smart/dp/B07DK5PZFY/ref=sr_1_1_sspa?keywords=samsung+tv&qid=1576081120&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzMlRDNDM0RVNPQzRRJmVuY3J5cHRlZElkPUEwOTkwMTc2MzQxMjY2WkwzV1hVUSZlbmNyeXB0ZWRBZElkPUEwNjExNjgwMVZKUFBXNE04UldLRSZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU="><img src="SAMSUNG.jpeg" width="800" height="500"></a>
+	<h3> $123456789 </h3>
+</body>
+</html>
